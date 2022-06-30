@@ -1,11 +1,14 @@
-import requests
+
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import re
 import pandas as pd
-import schedule
-import datetime
-import time
+import sqlite3
+from pandasql import sqldf
+
+# import schedule
+# import datetime
+# import time
 
 
 headers = {
@@ -20,7 +23,9 @@ driver = webdriver.Safari()
 
 property_types = []
 prices = []
+street_names = []
 zipcodes = []
+localities = []
 bedrooms = []
 bathrooms = []
 living_areas = []
@@ -33,40 +38,48 @@ energy_classes = []
 
 
 def get_property(links):
-    req = requests.get(links, headers)
-    soup = BeautifulSoup(req.content, 'html.parser')
-    property_info = soup.find('h1', {'class':'classified__title'})
-    property = " ".join(re.findall(r'[A-Za-z]+', property_info.text))
-    property = property.replace("for sale", "")
+    property = links.split('/')[5]  
     property_types.append(property)
     print("Property type: ", property_types[-1])
     return
 
-def get_price(links):
-    req = requests.get(links, headers)
-    soup = BeautifulSoup(req.content, 'html.parser')
-    every_price = soup.find('span', {'class':'sr-only'}).text
-    #print(every_price)
-    price = re.findall(r'[\d]+', every_price)[0]
+        
+def get_price(soup):
+    class_price = soup.find('p', {'class': 'classified__price'})
+    every_price = class_price.find('span', {'class':'sr-only'}).text
+    price = (re.findall(r'[\d]+', every_price)[0])
     prices.append(price)
     print("Price: ", price)
     return
 
-def get_zipcode(links):
-    driver.get(links)
-    # req = requests.get(links, headers)
-    soup = BeautifulSoup(driver.page_source, 'lxml')
-    address_rows = soup.find('div', {'class':'classified__information--address'}).text
-    zipcode = " ".join(re.findall(r'[\d+]{4}', address_rows))
-    zipcodes.append(zipcode)
-    print("Zipcode: ", zipcodes[-1])
-    return
-    
-#bedroom, bathroom, living_area, equipped kitchen, furnished
-#garden surface, surface plots, building conditions, energy classes
-def get_the_rest(links):
-    req = requests.get(links, headers)
-    soup = BeautifulSoup(req.content, 'html.parser')
+
+def get_address(soup):
+    address_rows = soup.find('div', {'class':'classified__information--address'})
+    address_row = address_rows.find_all('span', {'class': 'classified__information--address-row'})
+    if len(address_row)==2:
+        street_name = address_row[0].text.strip()
+        street_names.append(street_name)
+        zipcode_and_locality = address_row[1].text.strip().split('—')
+        zipcode = zipcode_and_locality[0].strip()
+        locality = zipcode_and_locality[-1].strip()
+        localities.append(locality)
+        zipcodes.append(zipcode) 
+        print("Street name:" ,street_name)
+        print("Zipcode: ", zipcode)
+        print("Locality: ", locality)
+    else: 
+        zipcode_and_locality = address_row[0].text.strip().split('—')
+        zipcode = zipcode_and_locality[0].strip()
+        zipcodes.append(zipcode)
+        locality = zipcode_and_locality[-1].strip
+        localities.append(locality)
+        street_names.append(None)
+        print("Zipcode: ", zipcode)
+        print("Locality: ", locality)
+        return
+
+
+def get_the_rest(soup):
     
     classified_table_rows = soup.find_all('tr', {'class':'classified-table__row'})
     
@@ -90,28 +103,39 @@ def classified_table_data(classified_table_rows, target):
                 if answer != None:
                     return answer.find(text=True).strip()
     return None
-    
+
+#c.execute('''INSERT INTO web_scrap VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)''', 
+        #   (property_type, price, street_name, locality, zipcode, bedroom, bathroom, living_area, equipped_kitchen, furnished, garden_surface, surface_plot, building_condition, energy_class))
+
 counts = 0
 for i in range(1,2):
     url = f'https://www.immoweb.be/en/search/house-and-apartment/for-sale?countries=BE&page={i}&orderBy=relevance'
     driver.get(url)
-    soup = BeautifulSoup(driver.page_source, 'lxml')
-    for pages in soup.find_all('li', {'class':'search-results__item'}):
+    mainsoup = BeautifulSoup(driver.page_source, 'lxml')
+    for pages in mainsoup.find_all('li', {'class':'search-results__item'}):
         for links in pages.find_all('a', {'class':'card__title-link'}):
             counts += 1
             print(f'page number: {i}, click count: {counts}')
             print(links['href'])
-            get_price(links["href"])
+            driver.get(links['href'])
+            soup = BeautifulSoup(driver.page_source, 'lxml')
             get_property(links["href"])
-            get_zipcode(links["href"])
-            get_the_rest(links["href"])
+            get_price(soup)
+            get_address(soup)
+            get_the_rest(soup)
 
-         
+            break
+
+
+#pandas dataframe part
+
 df = pd.DataFrame()
 
 df["property_types"] = property_types
 df["prices"] = prices
 df["zipcodes"] = zipcodes
+df["steet_names"] = street_names
+df["localities"] = localities
 df["bedrooms"] = bedrooms
 df["bathrooms"] = bathrooms
 df["living_areas (m2)"] = living_areas
@@ -123,3 +147,39 @@ df["building_conditions"] = building_conditions
 df["energy_classes"] = energy_classes
 
 df.to_csv("web_scrapping.csv", mode = "w", header=True)
+
+#SQL part
+
+def pysqldf(q):
+    """this function eliminates the need to include locals/globals all the time"""
+    return sqldf(q, globals())
+
+conn = sqlite3.connect('web_scrapping.db')
+c = conn.cursor()
+web_scrapping = pd.read_csv('./web_scrapping.csv')
+
+pysqldf(''' select * from web_scrapping; ''').to_sql('web_scrap', con=conn, index=False, if_exists='append')
+conn.commit() 
+
+print('complete')
+c.execute('''SELECT * FROM web_scrap''')
+results = c.fetchall()
+print(results)
+
+
+# nowtime = str(datetime.datetime.now())
+
+# def job(t):
+#     print("Code is running...", str(datetime.datetime.now()), t)
+
+# for time_schedule in ["06:00", "18:00"]:
+#     schedule.every().monday.at(time_schedule).do(job, time_schedule)
+#     schedule.every().tuesday.at(time_schedule).do(job, time_schedule)
+#     schedule.every().wednesday.at(time_schedule).do(job, time_schedule)
+#     schedule.every().thursday.at(time_schedule).do(job, time_schedule)
+#     schedule.every().friday.at(time_schedule).do(job, time_schedule)
+
+# while True:
+#     schedule.run_pending()
+#     time.sleep(30)
+
