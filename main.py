@@ -3,9 +3,12 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import re
 import pandas as pd
+<<<<<<< HEAD
 import sqlite3
 from pandasql import sqldf
 
+=======
+>>>>>>> b5abdaa3c748295d998891e71000f5fb8291f706
 # import schedule
 # import datetime
 # import time
@@ -97,10 +100,10 @@ def get_the_rest(soup):
 def classified_table_data(classified_table_rows, target):
     for table_rows in classified_table_rows:
         table_row = table_rows.find('th', {'class': 'classified-table__header'})
-        if table_row != None:
+        if table_row is not None:
             if target in table_row.string:
                 answer = table_rows.find('td', {'class':'classified-table__data'})
-                if answer != None:
+                if answer is not None:
                     return answer.find(text=True).strip()
     return None
 
@@ -146,6 +149,7 @@ df["surface_plots (m2)"] = surface_plots
 df["building_conditions"] = building_conditions
 df["energy_classes"] = energy_classes
 
+<<<<<<< HEAD
 df.to_csv("web_scrapping.csv", mode = "w", header=True)
 
 #SQL part
@@ -183,3 +187,6 @@ print(results)
 #     schedule.run_pending()
 #     time.sleep(30)
 
+=======
+df.to_csv("web_scrapping.csv", mode="w", header=True)
+>>>>>>> b5abdaa3c748295d998891e71000f5fb8291f706
