@@ -161,6 +161,7 @@ c.execute('''SELECT * FROM web_scrap''')
 results = c.fetchall()
 print(results)
 
+#set the schedule
 
 nowtime = str(datetime.datetime.now())
 
