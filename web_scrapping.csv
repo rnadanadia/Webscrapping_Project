@@ -1,0 +1,411 @@
+,primary_keys,property_types,prices,zipcodes,street_names,localities,bedrooms,bathrooms,living_areas (m2),equipped_kitchens,furnisheds,garden_surfaces (m2),surface_plots (m2),building_conditions,energy_classes
+0,9898130,house,745000,9000,Distelstraat 63/67,Gent,2,1,,,,,101,Good,C
+1,9981176,apartment,439000,9000,Vlasgaardstraat 58,Gent,3,1,115,Hyper equipped,No,,,As new,A
+2,9981177,penthouse,495000,9000,Vlasgaardstraat 58,Gent,3,1,115,Hyper equipped,No,,,As new,A
+3,9981178,penthouse,549000,9000,Vlasgaardstraat 58,Gent,2,2,116,Hyper equipped,No,,,As new,A
+4,9984336,new-real-estate-project-apartments,219000,2980,Kapellei 3,SINT-ANTONIUS,,,,,,,,,Not specified
+5,9974130,apartment,330000,1050,Rue de l'aqueduc 65,Ixelles,1,1,70,USA hyper equipped,No,,,Good,E
+6,9966805,apartment,350000,1200,Square Joseph Hanse - Joseph Hansesquare 1,Woluwe-Saint-Lambert,1,1,103,USA installed,,,,As new,G
+7,9993912,apartment,350000,9120,"Grote Baan 197
+    
+        Box 21",Beveren Melsele,2,1,108,Installed,No,,,Good,C
+8,9986028,apartment,489000,1050,Avenue Molière 101,Ixelles,1,1,90,USA hyper equipped,No,,,Just renovated,E
+9,9986021,apartment,699000,1050,"Avenue Molière 101
+    
+        Box 1",Ixelles,2,2,115,USA hyper equipped,No,,,Just renovated,D
+10,9977120,apartment,159000,4020,"Quai de Longdoz 17
+    
+        Box 61",Liege,3,1,90,Not installed,No,,,To be done up,C
+11,9981217,apartment,185000,1020,"Avenue des Croix du Feu 181
+    
+        Box 12",Laeken,2,1,81,Hyper equipped,No,,,As new,G
+12,9881253,new-real-estate-project-apartments,195500,1000,Bvd de la Cambre 25,Brussels City,,,,,,,,,Not specified
+13,9980472,apartment,197000,4430,"Rue des Quatorze Verges 95
+    
+        Box  2-1",Ans,3,1,106,Installed,No,,,As new,F
+14,9914498,new-real-estate-project-apartments,199500,2980,,<built-in method strip of str object at 0x7fa7ad84d4e0>,,,,,,,,,Not specified
+15,9993419,apartment,225000,1200,Avenue de Broqueville 105,Woluwe-Saint-Lambert,1,1,60,Not installed,No,,,To be done up,C
+16,9993422,apartment,250000,1200,Avenue Louis Gribaumont 123,Woluwe-Saint-Lambert,1,1,80,Not installed,No,,,To be done up,G
+17,9981184,new-real-estate-project-apartments,260000,9000,Bommelstraat 37,Gent,,,,,,,,,Not specified
+18,9983637,apartment,270000,1831,Watermolenstraat 42,Machelen Diegem,2,1,91,Hyper equipped,No,,,As new,A
+19,9992153,apartment,280000,1180,Place Emile Danco 9,Uccle,2,1,80,Installed,No,,,Good,F
+20,9993344,loft,295000,4800,du Prince 10,Verviers,3,1,130,Installed,No,,,As new,A
+21,9966662,apartment,310000,1200,"Rue des Floralies 83
+    
+        Box 170",Woluwe-Saint-Lambert,3,1,90,USA hyper equipped,No,,,Just renovated,E
+22,9971111,apartment,365000,9800,Tolpoortstraat 40,Deinze,2,1,91,Hyper equipped,No,,,As new,A
+23,9971107,apartment,375000,9800,Tolpoortstraat 40,Deinze,2,1,91,Hyper equipped,No,,,As new,A
+24,9980029,new-real-estate-project-apartments,515000,1000,Drève du Parc,BRUXELLES,,,,,,,,,B
+25,9993350,apartment,1100000,1180,Avenue Van Bever 5,Uccle,4,3,280,Hyper equipped,No,,,As new,C
+26,9989827,house,325000,9890,Egmont Park 4,Gavere,3,2,144,Hyper equipped,No,39,195,As new,A
+27,9989824,house,325000,9890,Egmont Park 6,Gavere,3,2,144,Hyper equipped,No,37,193,As new,A
+28,9989832,house,339000,9890,Egmont Park 8,Gavere,3,2,144,Hyper equipped,No,35,191,As new,A
+29,9989828,house,345000,9890,Egmont Park 2,Gavere,3,2,152,Hyper equipped,No,44,208,As new,A
+30,9972042,new-real-estate-project-apartments,205000,8370,J. de Troozlaan 78,Blankenberge,,,,,,,,,Not specified
+31,9990658,new-real-estate-project-apartments,259000,2580,Jan de Cordesstraat 92,Putte,,,,,,,,,Not specified
+32,9991984,new-real-estate-project-apartments,292000,9820,Ettingen 13,Merelbeke,,,,,,,,,Not specified
+33,9988517,new-real-estate-project-apartments,310000,9060,Marktstraat 3A,Zelzate,,,,,,,,,A
+34,9991596,house,325000,6940,Chainrue 13,Barvaux (-sur-ourthe),7,2,292,Installed,No,359,516,Good,D
+35,9977277,new-real-estate-project-apartments,332102,8900,Onze-Lieve-Vrouwestraat 14,Ieper,,,,,,,,,Not specified
+36,9991005,house,349000,1070,Rue de l'Instruction 139,Anderlecht,3,2,190,USA hyper equipped,No,,50,Good,F
+37,9991203,house,449000,1070,Rue des Colombophiles 87,Anderlecht,4,2,156,USA semi equipped,No,,204,Good,G
+38,9976940,new-real-estate-project-apartments,890000,1200,Avenue du Yorkshire 22-24-26,Woluwe-Saint-Lambert,,,,,,,,,B
+39,9990966,house,1150000,1050,Rue Forestiere 31,Ixelles,4,3,235,Installed,No,150,271,To renovate,G
+40,9988865,house,105000,9600,Opgeeistenstraat 5,Ronse,2,1,115,Semi equipped,No,,55,To renovate,E
+41,9989750,apartment,115000,7500,"Rue de la Madeleine 30
+    
+        Box  41",Tournai,2,1,91,Semi equipped,No,,,To renovate,D
+42,9988864,house,169500,9600,Kapellestraat 192,Ronse,2,2,145,Semi equipped,No,230,130,To be done up,D
+43,9968821,apartment,224000,1830,Camille Françoisstraat 99/2,Machelen,2,1,93,Installed,,,,As new,C
+44,9969874,new-real-estate-project-apartments,248820,8210,Torhoutsesteenweg 233-235,Zedelgem,,,,,,,,,Not specified
+45,9987594,apartment,260000,8370,Leopoldhelling 4,Blankenberge,2,1,77,Installed,Yes,,,Good,B
+46,9970046,new-real-estate-project-apartments,288025,8370,Van Maerlantstraat 41,Blankenberge,,,,,,,,,Not specified
+47,9989604,house,349500,4500,Rue Axhelière 33,Huy,3,1,200,Semi equipped,No,1000,1104,As new,E
+48,9968741,new-real-estate-project-apartments,359000,9000,Tondelierlaan 21,Gent,,,,,,,,,A
+49,9988619,apartment,375000,1150,avenue d'oppem 19,Woluwe-Saint-Pierre,2,1,110,Installed,No,,,To be done up,F
+50,9988670,penthouse,380000,1200,Avenue Paul Hymans 105,Woluwe-Saint-Lambert,3,1,110,Installed,No,,,Good,G
+51,9968742,new-real-estate-project-apartments,389000,9000,Tondelierlaan 20,Gent,,,,,,,,,Not specified
+52,9988861,villa,400000,4347,Rue de Noville 63,Fexhe-le-Haut-Clocher,4,2,200,Installed,No,600,1020,As new,E
+53,9988626,apartment,445000,1150,"Chaussée de Stockel 326
+    
+        Box 3",Woluwe-Saint-Pierre,3,1,112,Installed,No,,,As new,C
+54,9977133,apartment,445000,1180,Avenue Bel-Air 69,Uccle,2,1,115,Hyper equipped,No,,,As new,D
+55,9988675,apartment,495000,1180,Avenue de la Ferme Rose 2,Uccle,3,2,173,Hyper equipped,No,,,To renovate,C
+56,9990616,villa,635000,9255,Ten Hove 34,Buggenhout,3,1,189,Hyper equipped,No,473,639,As new,B
+57,9988669,house,800000,1150,Clos du Manoir 12,Woluwe-Saint-Pierre,4,1,200,Installed,No,,360,To renovate,G
+58,9960401,house,995000,1200,Avenue Emile Vandervelde 77,Woluwe-Saint-Lambert,4,1,304,Installed,No,,680,To renovate,F
+59,9967723,new-real-estate-project-apartments,199000,9620,"Directeursplein 1,C",Zottegem,,,,,,,,,Not specified
+60,9986984,new-real-estate-project-apartments,270000,8800,Westlaan 302,Roeselare,,,,,,,,,Not specified
+61,9986971,new-real-estate-project-apartments,299000,2018,Lange Elzenstraat 18,Antwerp,,,,,,,,,Not specified
+62,9985170,apartment,299000,9000,Lily Boeykensstraat 4/101,Gent,2,,75,Installed,,,,As new,B
+63,9970487,apartment,309000,8370,Zeedijk 55,Blankenberge,2,1,70,Installed,Yes,,,Good,B
+64,9982463,new-real-estate-project-houses,349000,2560,Heibloemstraat 88,Nijlen,,,,,,,,,Not specified
+65,9966171,new-real-estate-project-apartments,359000,9000,Tondelierlaan 21,Gent,,,,,,,,,A
+66,9987188,house,447000,4780,"+ 11 Bleialfer Straße, Schönberg 10",Saint-Vith,3,2,260,Not installed,No,,978,Good,B
+67,9968861,house,349000,9280,Baardegemsestraat 7,Lebbeke,3,1,185,,No,392,542,To be done up,E
+68,9995116,apartment,269000,1800,Jean Baptiste Nowélei 41,Vilvoorde,2,1,82,Hyper equipped,No,,,Good,B
+69,9962238,apartment,395000,1050,Avenue de l'Hippodrome 161,Ixelles,1,,85,USA hyper equipped,No,,,Just renovated,D
+70,9981215,apartment,185000,1020,"Avenue des Croix du Feu 181
+    
+        Box 12",Laeken,1,1,81,Hyper equipped,No,,,As new,G
+71,9982761,flat-studio,185000,8370,Zeedijk 55,Blankenberge,,1,33,Installed,Yes,,,Good,B
+72,9973273,new-real-estate-project-apartments,304000,1050,,<built-in method strip of str object at 0x7fa7adef2e30>,,,,,,,,,A
+73,9986505,new-real-estate-project-apartments,354500,1420,Boulevard de France Boulevard,Braine-l'Alleud,,,,,,,,,A+
+74,9973381,apartment,540000,1070,Rue de l'Agrafe 68,Anderlecht,3,1,180,Installed,No,,,Good,C
+75,9973264,new-real-estate-project-apartments,635000,1180,,<built-in method strip of str object at 0x7fa7adc6c5f0>,,,,,,,,,B
+76,9993423,apartment-block,650000,1200,Avenue du Prince Heritier 185,Woluwe-Saint-Lambert,4,2,267,Installed,No,44,162,To be done up,G
+77,9993421,house,650000,1200,Avenue du Prince Heritier 185,Woluwe-Saint-Lambert,4,2,267,Installed,No,44,162,To be done up,G
+78,9993303,apartment,195000,1020,"Avenue du Forum 5,20",Laeken,2,1,75,Semi equipped,No,,,Good,G
+79,9992197,apartment,215000,1600,"Gaston Deruyverstraat 23
+    
+        Box 2",Sint-Pieters-Leeuw,2,1,85,Not installed,No,,,To be done up,B
+80,9976939,apartment,230000,1080,Rue Osseghem 62,Molenbeek-Saint-Jean,1,1,89,Installed,,,,As new,E
+81,9992946,apartment,245000,1800,Blaesenbergstraat 72,Vilvoorde,2,1,81,Hyper equipped,No,,,Good,B
+82,9969046,penthouse,390000,1050,Rue Godecharle 6,Ixelles,1,1,70,USA installed,Yes,,,Good,E
+83,9982786,apartment,395000,1180,avenue Winston Churchill 55,Uccle,2,1,166,,No,,,To renovate,F
+84,9968924,flat-studio,448000,8300,Zandstraat 4,Knokke-Heist,,1,42,USA hyper equipped,No,,,As new,B
+85,9976692,duplex,449900,1020,"Avenue des Pagodes 122
+    
+        Box 3",Laeken,3,1,160,USA installed,No,,,As new,D
+86,9985953,house,99000,4100,Rue Colson 3,Seraing,2,1,76,Not installed,No,,25,Good,D
+87,9961902,new-real-estate-project-apartments,150000,6800,Avenue de Bouillon,Libramont-Chevigny,,,,,,,,,Not specified
+88,9973306,new-real-estate-project-apartments,304000,1160,,<built-in method strip of str object at 0x7fa7adb324f0>,,,,,,,,,A
+89,9985481,apartment,375000,1050,Avenue du Congo 16,Ixelles,1,1,79,USA installed,,,,Good,E
+90,9986401,new-real-estate-project-apartments,415000,1325,Rue de Corroy 13,GISTOUX,,,,,,,,,Not specified
+91,9986011,apartment-block,2790000,1050,Avenue Molière 101,Ixelles,7,8,507,USA hyper equipped,No,40,210,Just renovated,D
+92,9992151,house,495000,1150,Rue Jean-Baptiste Dumoulin 20,Woluwe-Saint-Pierre,3,1,107,Hyper equipped,No,85,246,Just renovated,G
+93,9991204,apartment-block,849000,1090,Rue Eugène De Smet 28,Jette,4,4,300,Semi equipped,No,19,154,Good,F
+94,9987552,apartment,129000,4000,"Quai Saint-Léonard 26
+    
+        Box  17",Liège,1,1,72,Semi equipped,No,,,Good,E
+95,9992810,apartment,160000,1140,Rue de Geneve 113,Evere,1,1,67,Not installed,No,,,To renovate,F
+96,9964309,apartment,265000,1170,,<built-in method strip of str object at 0x7fa7adc7a3a0>,2,1,67,Installed,No,,,Good,E
+97,9981094,apartment,290000,1140,Avenue des Communautes 4,Evere,1,1,69,USA hyper equipped,No,,,As new,A
+98,9981091,penthouse,520000,1140,Avenue des Communautes 4,Evere,3,2,119,USA hyper equipped,No,,,As new,B
+99,9971271,duplex,599000,1050,Avenue de la Couronne 274,Ixelles,4,2,212,Hyper equipped,No,,,As new,G
+100,9980381,apartment,220000,1950,Avenue des Capucines 17,KRAAINEM,1,1,55,USA installed,No,,,Good,C
+101,9969480,apartment,169000,1090,Avenue de l'Arbre Ballon 26,Jette,2,1,59,Semi equipped,No,,,Good,E
+102,9983210,flat-studio,185000,1000,Rue du Canon 27,Bruxelles,,1,58,Hyper equipped,No,,,Good,C
+103,9969074,apartment,230000,1930,Diegemstraat 160A,Zaventem,2,1,75,Hyper equipped,No,,,Good,D
+104,9971090,new-real-estate-project-apartments,230000,9800,Tolpoortstraat 40,Deinze,,,,,,,,,A
+105,9979954,apartment,235000,1000,"STEVINSTRAAT 109
+    
+        Box  C5",Brussels City,1,1,32,USA installed,Yes,,,Good,F
+106,9898809,new-real-estate-project-apartments,241000,2500,Kazernedreef 4,Lier,,,,,,,,,Not specified
+107,9983212,apartment,295000,1030,"Boulevard Leopold III 56
+    
+        Box 3",Schaerbeek,2,1,95,Hyper equipped,No,,,Good,E
+108,9963349,apartment,299000,1930,"Astridlaan 12A
+    
+        Box  3",Zaventem,2,1,95,Installed,No,,,Good,C
+109,9983482,mixed-use-building,300000,4260,Chaussée de Tirlemont 4,Braives,4,2,185,Installed,No,350,817,Good,G
+110,9983481,house,300000,4260,Chaussée de Tirlemont 4,Braives,4,2,185,Installed,No,350,817,Good,G
+111,9984940,new-real-estate-project-apartments,389000,9090,Brusselsesteenweg 87-89,Melle,,,,,,,,,Not specified
+112,9984715,new-real-estate-project-houses,449000,2250,Larumseweg 11,Olen,,,,,,,,,Not specified
+113,9984719,new-real-estate-project-houses,489000,2200,Herenthoutseweg 171,Herentals,,,,,,,,,Not specified
+114,9983636,mixed-use-building,590000,3150,Grote Baan 25,Haacht Wespelaar,5,1,240,Hyper equipped,Yes,80,280,To be done up,D
+115,9988990,house,349000,1082,Avenue Laure 3,Berchem-Sainte-Agathe,4,1,166,USA hyper equipped,No,20,86,Good,G
+116,9906079,house,425000,7800,Route de Frasnes 139,Ath,5,2,200,Installed,No,,1500,As new,C
+117,9988729,apartment-block,535000,1080,Rue de l'Escaut 5,Molenbeek-Saint-Jean,6,4,262,Semi equipped,No,,82,To renovate,G
+118,9988895,exceptional-property,549000,1755,Edingsesteenweg 318,Gooik,4,1,304,Hyper equipped,,,1150,Good,E
+119,9989763,house,650000,1970,Avenue Bel-Air 69,Wezembeek-Oppem,2,1,205,USA semi equipped,No,,543,Good,E
+120,9988621,house,745000,1200,Avenue A.J. Slegers 233,Woluwe-Saint-Lambert,5,2,210,Installed,No,,133,Good,G
+121,9988620,house,795000,1150,Tir aux Pigeons 105,Woluwe-Saint-Pierre,3,2,200,Hyper equipped,No,85,210,Good,D
+122,9988624,house,840000,1950,Avenue Baron Albert d'Huart 116,Kraainem,5,2,200,Hyper equipped,No,150,360,Good,E
+123,9978881,apartment,440000,1000,Rue du Pays de Liège 5-17,Bruxelles,2,1,97,USA hyper equipped,,,,As new,A
+124,9994508,flat-studio,150000,4500,"Rue des Chevaux-Haleurs 3, 2.5",BEN-AHIN,,,51,Semi equipped,No,,,Good,B
+125,9994379,apartment,224000,2880,"Puursesteenweg 172
+    
+        Box  2",Bornem,2,1,105,Installed,No,,,Good,B
+126,9971109,apartment,230000,9800,Tolpoortstraat 40,Deinze,1,1,63,Hyper equipped,No,,,As new,A
+127,9971110,apartment,245000,9800,Tolpoortstraat 40,Deinze,1,1,63,Hyper equipped,No,,,As new,A
+128,9971112,apartment,320000,9800,Tolpoortstraat 40,Deinze,2,1,96,Hyper equipped,No,,,As new,A
+129,9971108,apartment,390000,9800,Tolpoortstraat 40,Deinze,2,1,99,Hyper equipped,No,,,As new,A
+130,9979953,apartment,185000,1000,"KRUIDTUINLAAN 3, K7",Brussels City,1,1,38,Installed,Yes,,,Good,E
+131,9981108,apartment,255000,1200,Avenue Paul Hymans 112,Woluwe-Saint-Lambert,2,1,81,Not installed,No,,,To be done up,G
+132,9982228,house,289000,4500,Avenue Albert 1er 16,Huy,3,1,290,Semi equipped,No,100,204,Good,D
+133,9908727,town-house,300000,4101,Rue Francois Logen 25,Seraing,5,2,250,Installed,,,546,Good,D
+134,9982526,apartment,335000,1180,Rue Lincoln 72,Uccle,2,1,97,Installed,No,,,Good,E
+135,9981040,apartment,340000,1180,Avenue Brugmann 263,Uccle,2,1,86,Hyper equipped,No,,,Good,D
+136,9981116,apartment,400000,1050,Rue d'Idalie 21,Ixelles,1,1,70,USA hyper equipped,Yes,,,As new,C
+137,9968141,apartment,462000,3000,"Mechelsevest 22
+    
+        Box  201",Leuven,3,2,120,Semi equipped,No,,,To be done up,B
+138,9991959,apartment,290000,1000,"Rue Jules Van Praet 20
+    
+        Box 4.3",Bruxelles,1,1,65,USA semi equipped,No,,,Good,C
+139,9992678,apartment,420000,9600,"Bredestraat 86
+    
+        Box  0302",Ronse,2,1,120,Installed,No,,,Good,B
+140,9979025,apartment,229000,1080,"Rue du Menuet 1,4A",Molenbeek-Saint-Jean,2,1,88,Hyper equipped,No,,,Just renovated,G
+141,9980577,new-real-estate-project-houses,295500,9600,,<built-in method strip of str object at 0x7fa7aca5a070>,,,,,,,,,Not specified
+142,9923211,villa,300000,4537,Rue Trixhelette 45,Verlaine,4,1,215,Installed,No,950,1200,To be done up,F
+143,9979492,house,485000,1410,Clos de Bérine 39,Waterloo,4,2,154,Semi equipped,No,600,824,Good,D
+144,9979493,house,485000,1420,Clos de Bérine 39,Braine-l'Alleud,4,2,154,Semi equipped,No,600,824,Good,D
+145,9979266,new-real-estate-project-apartments,534643,3000,Kaboutermansstraat,Leuven,,,,,,,,,Not specified
+146,9979473,villa,550000,1380,Chaussée de Rixensart 7,Lasne,5,1,187,Installed,No,463,610,Good,E
+147,9592954,apartment,575000,1000,Rue Froissart 86,Bruxelles ville,2,2,112,Hyper equipped,No,,,As new,A
+148,9833811,apartment,1537000,1050,"Avenue de la Toison d'Or 17
+    
+        Box 7C",Ixelles,2,2,160,Hyper equipped,No,,,As new,B
+149,9941090,apartment,1839000,1050,Avenue de la Toison d'Or 17,Ixelles,3,2,203,Hyper equipped,No,,,As new,B
+150,9995117,apartment,270000,1785,"Mandsteenweg 13
+    
+        Box 8",Merchtem,2,1,95,,No,,,Good,D
+151,9988863,house,129000,9600,Schavaart 15,Ronse,3,1,165,Not installed,No,430,610,To renovate,F
+152,9993346,villa,385000,4630,Rue de Wergifosse 26,Soumagne,4,1,200,Installed,No,400,643,Good,D
+153,9993342,house,450000,4280,Rue du Marquat 2,Hannut,5,2,290,Hyper equipped,No,,1254,As new,D
+154,9856030,apartment,189000,4500,"Avenue des Ardennes 34
+    
+        Box  22",Huy,3,1,100,Installed,No,,,Good,G
+155,9988887,apartment,285000,9690,"Grote Herreweg 114
+    
+        Box  101",RUIEN,2,1,110,Installed,No,,,Good,A
+156,9988886,apartment,285000,9690,"Grote Herreweg 114
+    
+        Box  101",RUIEN,2,1,110,Installed,No,,,Good,A
+157,9962705,apartment,330000,1030,Boulevard du Roi Albert II 49,Schaerbeek,3,1,114,USA hyper equipped,No,,,As new,C
+158,9963265,new-real-estate-project-apartments,137500,1000,Rue des Commerçants 48-52,BRUXELLES,,,,,,,,,A
+159,9977119,house,149000,4040,Rue sur les Thiers 131,Herstal,4,2,134,Not installed,No,147,222,To renovate,G
+160,9964120,service-flat,175000,9051,Derbystraat 130,Gent,2,1,93,Hyper equipped,No,,,As new,B
+161,9978246,new-real-estate-project-apartments,229000,2270,Molenstraat,Herenthout,,,,,,,,,Not specified
+162,9978211,house,229500,4500,Chaussée de Waremme 204,Huy,3,1,176,Semi equipped,No,500,596,Good,F
+163,9976819,new-real-estate-project-apartments,235000,1490,Avenue de Wisterzee,Court-St.-Etienne,,,,,,,,,Not specified
+164,9976911,house,260000,1421,Rue du Try 22,Braine-l'Alleud Ophain-Bois-Seigneur-Isaac,3,1,120,Semi equipped,No,550,695,Good,E
+165,9976637,apartment,265000,1090,"Rue Eugene Toussaint 97
+    
+        Box 4",Jette,2,1,88,Hyper equipped,No,,,Good,E
+166,9976910,new-real-estate-project-apartments,292000,1300,rue du Béguinage,Wavre,,,,,,,,,Not specified
+167,9976590,apartment,315000,1200,Avenue de Broqueville 231,Woluwe-Saint-Lambert,1,1,67,Installed,No,,,As new,E
+168,9977604,penthouse,325000,2580,"Mechelbaan 509
+    
+        Box  3 02",Putte,2,1,101,Installed,No,,,As new,B
+169,9978265,new-real-estate-project-houses,359000,2270,Molenstraat,Herenthout,,,,,,,,,Not specified
+170,9978456,house,359000,4480,Rue Nouvelle Route 133 B,ENGIS,3,1,223,Installed,No,420,1231,Good,D
+171,9826135,new-real-estate-project-apartments,365000,3080,Duisburgsesteenweg,Tervuren,,,,,,,,,Not specified
+172,9977583,house,375000,3200,DIESTSESTEENWEG 119,Aarschot,4,1,169,Installed,No,,620,Just renovated,D
+173,9976566,apartment,745000,1160,Avenue du Parc de Woluwe 11,Auderghem,3,2,209,Hyper equipped,No,,,As new,D
+174,9977967,apartment,1190000,1050,Avenue Louise 244,Ixelles,4,3,225,Hyper equipped,No,,,As new,D
+175,9986183,house,285000,4500,Rue de la Mairie 13,TIHANGE,4,,135,Semi equipped,No,,560,To be done up,F
+176,9985654,house,295000,6000,Cite Dandoy 11,Charleroi,3,1,165,Installed,No,100,299,As new,B
+177,9986128,villa,850000,1300,Avenue Baudelaire 20,Wavre,5,3,210,Installed,No,,905,As new,C
+178,9990894,house,249000,4432,"Rue Barbier 12
+    
+        Box A",Xhendremael,2,2,150,Installed,No,60,175,As new,G
+179,9970970,penthouse,390000,1050,Rue Godecharle 6,Ixelles,1,1,70,USA installed,Yes,,,Good,E
+180,9985521,apartment,465000,1190,Avenue Brugmann 167,Forest,2,2,122,USA hyper equipped,No,,,Just renovated,D
+181,9987982,apartment,350000,8430,"Zeedijk 287
+    
+        Box  0501",Middelkerke,2,1,71,Installed,Yes,,,To be done up,B
+182,9971264,duplex,669000,2018,"Prins Albertlei 19
+    
+        Box A3.4",Antwerp,2,1,207,Installed,,150,,As new,D
+183,9975955,apartment,250000,1400,"Rue Saint-Georges 5, 3",Nivelles,2,,90,Semi equipped,No,,,As new,D
+184,9953125,new-real-estate-project-apartments,279500,1831,Haachtsesteenweg 29,Diegem,,,,,,,,,Not specified
+185,9911454,new-real-estate-project-houses,340000,2850,Pachterslei 8,Boom,,,,,,,,,Not specified
+186,9976086,new-real-estate-project-apartments,345000,8380,Bastenakenstraat 18,Zeebrugge,,,,,,,,,Not specified
+187,9975940,duplex,350000,9000,Hundelgemsesteenweg 44,Gent,3,1,185,Installed,No,,,To be done up,A
+188,9975939,duplex,350000,9050,Hundelgemsesteenweg 44,Ledeberg,3,1,185,Installed,No,,,To be done up,A
+189,9974562,house,385000,1082,Rue de Ganshoren 15,Berchem-Sainte-Agathe,5,2,145,Installed,No,100,170,Good,G
+190,9963362,new-real-estate-project-houses,449500,2860,,<built-in method strip of str object at 0x7fa7ae3bb490>,,,,,,,,,Not specified
+191,9953126,new-real-estate-project-houses,573850,2811,Bergenstraat 55,Hombeek,,,,,,,,,Not specified
+192,9965842,penthouse,599000,1200,"Avenue des Ombrages 32
+    
+        Box 23",Woluwe-Saint-Lambert,3,2,140,Installed,No,,,Good,E
+193,9991514,apartment,210000,1800,Hendrik I lei 28,Vilvoorde,2,1,85,,No,,,To be done up,B
+194,9992442,apartment,414355,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,105,Installed,No,,,Just renovated,Not specified
+195,9992440,apartment,414355,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,105,Installed,No,,,Just renovated,Not specified
+196,9992432,apartment,414355,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,105,Installed,No,,,Just renovated,Not specified
+197,9992443,apartment,426205,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,108,Installed,No,,,Just renovated,Not specified
+198,9992437,apartment,426205,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,108,Installed,No,,,Just renovated,Not specified
+199,9992435,apartment,426205,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,108,Installed,No,,,Just renovated,Not specified
+200,9992433,apartment,426205,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,108,Installed,No,,,Just renovated,Not specified
+201,9992444,apartment,458150,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,120,Installed,No,,,Just renovated,Not specified
+202,9992438,apartment,458150,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,120,Installed,No,,,Just renovated,Not specified
+203,9992436,apartment,458150,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,120,Installed,No,,,Just renovated,Not specified
+204,9992434,apartment,458150,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,120,Installed,No,,,Just renovated,Not specified
+205,9992441,apartment,470470,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,122,Installed,No,,,Just renovated,Not specified
+206,9992439,apartment,470470,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,122,Installed,No,,,Just renovated,Not specified
+207,9992431,apartment,470470,1030,Avenue Eugène Plasky 144,Schaerbeek,2,2,122,Installed,No,,,Just renovated,Not specified
+208,9983243,house,290000,4470,"Rue Georges Berotte 89
+    
+        Box a",Saint-Georges-sur-Meuse,3,1,130,Installed,No,300,594,Good,C
+209,9984258,house,369000,2020,Sus Van Den Eyndestraat 22,Antwerpen,3,1,130,Installed,No,55,135,As new,B
+210,9983176,villa,450000,7880,Rue de la Crête 15,Flobecq,3,1,215,Installed,No,,1160,Good,E
+211,9983566,manor-house,795000,8580,Oudenaardsesteenweg 543,Avelgem,5,4,350,Installed,No,,1996,Just renovated,C
+212,9983567,manor-house,795000,8581,Oudenaardsesteenweg 543,Kerkhove,5,4,350,Installed,No,,1996,Just renovated,C
+213,9985486,apartment,145000,4500,"Rue des Crepalles 2,23",Huy,1,1,55,Installed,No,,,Good,B
+214,9984012,apartment,250000,1070,chaussée de ninove 603,Anderlecht,2,1,100,Hyper equipped,No,,,As new,E
+215,9991735,apartment,325000,1050,Chaussée de Vleurgat 266,Ixelles,1,1,61,USA hyper equipped,Yes,,,As new,E
+216,9989358,apartment,450000,5000,"avenue de la pairelle 77
+    
+        Box 24",Namur,3,1,116,Hyper equipped,No,,,As new,B
+217,9986019,apartment,849000,1050,Avenue Molière 101,Ixelles,3,3,170,USA hyper equipped,No,50,,Just renovated,E
+218,9979952,flat-studio,169000,1000,"NEGENDE LINIELAAN 137
+    
+        Box  212",Brussels City,,1,34,Installed,Yes,,,Good,E
+219,9988993,house,179000,9120,Puchelstraat 8,Beveren,2,1,92,Semi equipped,,135,246,To renovate,D
+220,9983194,apartment,195000,1030,Rue Max Roos 48,Schaerbeek,1,1,50,USA installed,,,,Just renovated,E
+221,9973014,flat-studio,215000,1140,Avenue des Communautes 4,Evere,,1,43,USA hyper equipped,No,,,As new,A
+222,9969488,apartment,245000,1080,Boulevard Louis Mettewie 93,Molenbeek-saint-jean,2,2,120,Installed,No,,,Good,D
+223,9988650,apartment-block,6812000,1030,Avenue Eugène Plasky 144,Schaerbeek,28,28,1600,Installed,No,,1012,Just renovated,Not specified
+224,9993217,house,299500,4540,Rue du Pont 27,Amay,3,1,140,Semi equipped,No,300,453,As new,F
+225,9993694,house,599000,6890,Lesse 166,Libin,6,2,178,Not installed,No,950,1145,To renovate,E
+226,9994975,manor-house,1295000,8790,Jan Bouckaertstraat 15,Waregem,5,,600,Semi equipped,No,,2250,To renovate,D
+227,9973368,apartment,245000,6790,"Rue de Longwy 143
+    
+        Box /B12",Aubange,2,1,86,Installed,No,,,Good,B
+228,9965004,apartment,279000,8210,"Snellegemsestraat 79
+    
+        Box  0109",Zedelgem,3,1,117,Installed,No,,,Good,A
+229,9973477,apartment,289000,4680,"Rue Elvaux 124
+    
+        Box 21",Oupeye,1,1,99,Hyper equipped,Yes,,,As new,A
+230,9969545,apartment,295000,1050,"Avenue Franklin Roosevelt 268
+    
+        Box 3",Ixelles,1,1,68,Installed,Yes,,,Good,D
+231,9960604,new-real-estate-project-apartments,1450000,1180,,<built-in method strip of str object at 0x7fa7ad248c30>,,,,,,,,,B
+232,9989830,house,345000,9890,Egmont Park 13,Gavere,3,2,171,Hyper equipped,No,15,195,As new,A
+233,9989831,house,350000,9890,Egmont Park 11,Gavere,3,2,174,Hyper equipped,No,15,198,As new,A
+234,9989825,house,350000,9890,Egmont Park 17,Gavere,3,2,174,Hyper equipped,No,15,198,As new,A
+235,9989823,house,355000,9890,Egmont Park 15,Gavere,3,2,176,Hyper equipped,No,15,200,As new,A
+236,9989829,house,380000,9890,Egmont Park 19,Gavere,3,2,197,Hyper equipped,No,16,223,As new,A
+237,9989193,duplex,339000,5060,"Rue du Centre 33
+    
+        Box 4.2",Sambreville,2,1,187,Installed,No,,,As new,A
+238,9979228,penthouse,665000,9000,"Stapelplein 80
+    
+        Box 15.2",Gent,2,2,131,Not installed,No,,,As new,Not specified
+239,9988682,flat-studio,185000,1040,Rue du Cornet 199,Etterbeek,,1,31,USA installed,No,,,Good,D
+240,9962816,apartment,295000,1600,"Kerkplein 41
+    
+        Box 2",Sint-pieters-leeuw,3,1,152,Installed,No,,,To be done up,C
+241,9988648,apartment,6812000,1030,Avenue Eugène Plasky 144,Schaerbeek,28,28,1600,Installed,No,,,Just renovated,Not specified
+242,9981659,house,369500,4557,Rue de Liège 20,FRAITURE,3,1,150,Semi equipped,No,880,1010,As new,C
+243,9990882,apartment,165000,7900,Rue de l'Araucaria 29,Leuze-En-Hainaut,1,1,60,Installed,No,,,Good,B
+244,9973241,apartment,325000,1400,Rue Octave Grillaert 3,Nivelles,3,2,118,Hyper equipped,No,,,As new,D
+245,9994960,apartment,340000,9000,Schoolkaai 5,Gent,2,1,105,Semi equipped,No,,,To renovate,B
+246,9981211,service-flat,365000,9000,"Sint-Michielsstraat 13A
+    
+        Box 102",Gent,2,1,112,Hyper equipped,No,,,As new,A
+247,9977054,apartment,220000,1090,Avenue Henri Liebrecht 33,Jette,2,1,94,Not installed,No,,,To renovate,F
+248,9981032,apartment,230000,1070,Rue de l'Instruction 120,Anderlecht,2,1,79,Installed,No,,,Good,G
+249,9976047,house,455000,1653,Beling 67,Beersel Dworp,4,1,180,Hyper equipped,,55,145,As new,A
+250,9970936,penthouse,495000,1140,Avenue des Communautes 4,Evere,2,2,125,USA hyper equipped,No,,,As new,B
+251,9987040,apartment-block,1465000,1070,Avenue Theo Verbeeck 73,Anderlecht,5,5,420,Semi equipped,No,,119,To be done up,F
+252,9991185,house,169000,6887,Rue de la Hulette 6,Herbeumont,2,1,90,USA installed,No,,100,Just renovated,F
+253,9991096,house,259000,7100,Rue du Tir 34,La Louviere,3,1,177,Installed,No,,429,As new,D
+254,9992797,house,275000,9500,Zavelstraat 85,OVERBOELARE,3,1,95,Installed,No,,2020,Good,D
+255,9992796,mixed-use-building,275000,9500,Zavelstraat 85,OVERBOELARE,3,1,95,Installed,No,,2020,Good,D
+256,9992781,bungalow,275000,9500,Zavelstraat 85,OVERBOELARE,3,1,95,Installed,No,,2020,Good,D
+257,9930196,villa,315000,1490,Rue de Faux 51,Court-saint-©tienne,2,1,104,Installed,No,,1100,Good,E
+258,9992284,house,355000,1640,Bellemansheide 36,Sint-Genesius-Rode,3,2,180,Not installed,No,,650,To restore,F
+259,9992262,villa,649900,2390,Salphensebaan 22,Malle,4,2,240,Installed,No,1000,1349,Good,E
+260,9950164,house,695000,1200,Avenue Des Créneaux - Kantelenlaan 5,Sint-Lambrechts-Woluwe,3,2,176,Installed,No,100,162,As new,E
+261,9992741,house,795000,1170,Avenue des Lucioles 2,Watermael-Boitsfort,4,1,180,Installed,No,160,209,,D
+262,9992244,villa,945000,2300,Pieter Heuvelmansstraat 13,Turnhout,4,2,442,Hyper equipped,No,,741,As new,A
+263,9992259,villa,1189000,2570,A. Stocletlaan 225,Duffel,5,1,432,Installed,No,,1650,As new,C
+264,9985581,duplex,380000,1081,"Avenue du Sippelberg 8B
+    
+        Box F51",Koekelberg,3,2,120,USA installed,No,,,As new,D
+265,9972986,apartment,169000,4500,"Rue Entre-Deux-Portes 57
+    
+        Box  11",Huy,2,,85,Semi equipped,No,,,Good,B
+266,9971824,new-real-estate-project-apartments,169995,1180,Rue de l'Étoile 92,Uccle,,,,,,,,,Not specified
+267,9950337,new-real-estate-project-apartments,209900,2220,Stationsstraat,Heist-op-den-Berg,,,,,,,,,Not specified
+268,9950359,new-real-estate-project-apartments,224900,2830,Gieterijstraat 1,Willebroek,,,,,,,,,Not specified
+269,9973191,apartment,225000,2660,"Antwerpsesteenweg 281
+    
+        Box  1v",Hoboken,2,1,81,Installed,No,,,As new,B
+270,9972991,house,249000,4400,Rue Fays 144,Ivoz-Ramet,3,1,92,Installed,No,195,309,Good,G
+271,9973224,house,269000,9600,Savooistraat 75,Ronse,3,1,152,Installed,No,315,482,Good,E
+272,9973024,apartment,280000,1080,Boulevard Louis Mettewie 67,Molenbeek-Saint-Jean,3,2,140,Hyper equipped,No,,,Good,D
+273,9973022,apartment,299000,1020,"Avenue de la Brise 32
+    
+        Box 11",Bruxelles,3,1,98,USA hyper equipped,,,,As new,G
+274,9973630,house,350000,1930,MECHELSESTEENWEG 506,NOSSEGEM,4,1,197,Installed,No,,260,To renovate,F
+275,9976713,penthouse,695000,9000,"Stapelplein 80
+    
+        Box 15.3",Gent,2,2,134,Not installed,No,,,As new,Not specified
+276,9988124,apartment,169000,2830,"Overwinningsstraat 50
+    
+        Box  302",Willebroek,1,1,45,Semi equipped,No,,,Good,D
+277,9978989,house,189000,4870,Rue Moirivay 21,Trooz,2,1,156,Not installed,No,500,726,To renovate,C
+278,9978987,house,189000,4877,Rue Moirivay 21,Olne,2,1,156,Not installed,No,500,726,To renovate,C
+279,9979230,house,295000,6020,Cite Dandoy 11,Charleroi,3,1,165,Installed,No,100,299,As new,B
+280,9979002,house,369000,1030,"Rue Guido Gezelle 44
+    
+        Box 1",Schaerbeek,4,1,145,Semi equipped,No,,75,To be done up,G
+281,9979227,apartment-block,765000,9000,Nieuwland 49,Gent,6,6,124,USA semi equipped,No,,59,Good,C
+282,9902498,house,850000,1410,"Chaussee de Bruxelles 628
+    
+        Box V6",Waterloo,4,3,261,USA hyper equipped,No,890,890,As new,B
+283,9979564,apartment-block,895000,1090,Avenue Carton de Wiart 64,Jette,9,9,270,Not installed,No,,70,To renovate,E
+284,9978839,villa,895000,3078,Kruisstraat 135,Everberg,5,2,250,Hyper equipped,No,500,1000,As new,C
+285,9983244,house,235000,4140,Rue du Cimetière 24,Sprimont,2,1,130,Installed,No,300,446,To be done up,D
+286,9984889,mixed-use-building,242000,9550,Hoogstraat 13,Herzele,5,2,245,Semi equipped,No,,231,To renovate,D
+287,9984885,house,242000,9550,Hoogstraat 13,Herzele,5,2,245,Semi equipped,No,,231,To renovate,D
+288,9976991,penthouse,649000,1180,Chaussee de Waterloo 1329B,Uccle,4,2,145,USA installed,,,,Good,F
+289,9991958,apartment,700000,1050,Rue Defacqz 118,Ixelles,4,2,140,Hyper equipped,No,700,,Good,D
+290,9899651,apartment,185000,9600,"Saint-Sauveurstraat 63
+    
+        Box 202",Ronse,2,1,84,Hyper equipped,No,,,As new,A
+291,9978995,apartment,190000,1140,Rue Edouard Dekoster 64,Evere,2,1,81,Installed,No,,,To be done up,F
+292,9929998,apartment,240000,1070,"rue de la Laiterie 90
+    
+        Box 18",Anderlecht,2,1,80,USA hyper equipped,No,,,As new,C
+293,9091312,apartment,245000,1090,"Clos René Magritte 1
+    
+        Box 01/2",Jette,1,1,71,Hyper equipped,No,,,As new,B
+294,9964690,apartment,249000,1080,Boulevard Louis Mettewie 77,Molenbeek-saint-jean,3,1,137,Not installed,No,,,Good,D
+295,9967309,apartment,260000,2580,"Mechelbaan 508
+    
+        Box  6",Putte,2,1,125,Installed,No,,,Good,B
+296,9935230,apartment,275300,1090,"Rue Esseghem 3,1.01",Jette,1,1,75,USA hyper equipped,No,,,As new,B
+297,9935244,apartment,277300,1090,"Rue Esseghem 3,1.03",Jette,2,1,81,USA hyper equipped,No,,,As new,B
+298,9857729,apartment,293000,4683,"Rue de la Digue 82
+    
+        Box  21",Vivegnis,3,1,150,Not installed,No,,,Good,A
+299,9941391,apartment,303500,8000,"Dudzeelse Steenweg 125
+    
+        Box 02.01",Brugge,2,1,109,Hyper equipped,No,,,As new,A

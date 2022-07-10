@@ -127,7 +127,7 @@ def classified_table_data(classified_table_rows, target):
     return None
 
 counts = 0
-for i in range(1,11):
+for i in range(1,20):
     url = f'https://www.immoweb.be/en/search/house-and-apartment/for-sale?countries=BE&page={i}&orderBy=relevance'
     driver.get(url)
     mainsoup = BeautifulSoup(driver.page_source, 'lxml')
@@ -166,7 +166,7 @@ df["surface_plots (m2)"] = surface_plots
 df["building_conditions"] = building_conditions
 df["energy_classes"] = energy_classes
 
-df.to_csv("web_scrapping.csv", mode = "w", header=True)
+df.to_csv("web_scrapping_2.csv", mode = "w", header=True)
 
 #save to SQL
 
